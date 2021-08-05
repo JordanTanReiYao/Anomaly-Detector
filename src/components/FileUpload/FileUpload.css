@@ -1,0 +1,111 @@
+.fileUpload{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+  margin-top: 1.5vmin;
+}
+    
+.doubleLayerFieldset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding:1.4vmin 1.6vmin 0.5vmin;
+  font-family: sans-serif;
+  border-width: 1.5px;
+  height:auto;
+  width:auto;
+  border-color: azure;
+}
+
+legend{
+  color:blue;
+  font-size: 2.1vmin;
+}
+
+.internalFieldset{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  font-size:2.7vmin;
+  border-width:0;
+  padding:0px;
+  width:auto;
+  margin-bottom:1.9vmin;
+}
+
+fieldset.fileFeedback{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width:auto;
+  border-width:0;
+  margin:0.4vmin auto 1.6vmin auto;
+  padding:auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+  
+p.NumFilesSelectedHeader{
+  margin-top: 0.4vmin;
+  margin-bottom: 0.6vmin;
+  border-bottom:1px solid #000000; width:240px;
+  font-size:2.68vmin;;
+  text-align:center;
+  margin-right:auto;
+  margin-left: auto;
+}
+  
+ul.filesSelected{
+  display: inline-block;
+  width:100%;
+  font-size: 2.25vmin;
+  margin-top: 5px;
+  margin-left:0px;
+  width:auto;
+  text-align: center;
+  list-style-position: inside;
+  margin-bottom: 5px;
+  padding: 0px;
+}
+  
+ul.filesSelected>li{
+  font-size: 2.25vmin;
+}
+  
+input.newDBInput{
+  font-size: inherit;
+  padding: 0.15vmin 0.2em;
+  height:4.5vmin;
+  margin: 0.2vmin 0.6vmin;
+  border-radius: 0em;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  border: 1px solid #f90;
+  background-color:azure;
+  outline: none;
+}
+
+input.newDBInput:focus{
+  border:1px solid blue
+}
+
+input[type='file']{
+  display:none;
+}
+
+span.fileUpload{
+  margin: 2.4vmin 0px;
+  transform: translateY(-50%);
+}
+
+
+
+
+
+
+  

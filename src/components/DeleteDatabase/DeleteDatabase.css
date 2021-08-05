@@ -1,0 +1,22 @@
+.deletion{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  width:100%;
+  margin-top: 2vmin;
+}
+
+.singleLayerFieldset{
+  display:flex;
+  flex-direction:row;
+  justify-content: center;
+  font-family: sans-serif;
+  border-color: azure;
+  border-width: 1.5px;
+  height:auto;
+  width:auto;
+  font-size: 2.7vmin;
+  padding: 1.3vmin 1.7vmin 1.8vmin;
+}
+
+ 

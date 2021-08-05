@@ -1,0 +1,39 @@
+.success{
+    position:fixed;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height:100%;
+    width:100%;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    background-color: #000000AF;
+    font-weight: bold;
+    color: aliceblue;
+    animation: FadeAnimation 1.5s ease-in 1.35s forwards;
+    margin:0px
+  }
+  
+  .success>p{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 7vmin;
+  }
+  
+
+
+  @keyframes FadeAnimation {
+    0% {
+      opacity: 1;
+      visibility: visible;
+    }
+    100% {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  

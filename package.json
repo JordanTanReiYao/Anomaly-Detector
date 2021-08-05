@@ -1,0 +1,73 @@
+{
+  "name": "anomaly-detector",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@kenshooui/react-multi-select": "^1.1.6",
+    "@material-ui/core": "^4.11.4",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "carbon-components": "^10.39.0",
+    "carbon-components-react": "^7.39.0",
+    "carbon-icons": "^7.0.7",
+    "d3": "^7.0.0",
+    "file-saver": "^2.0.5",
+    "html2pdf.js": "^0.9.3",
+    "jquery": "^3.6.0",
+    "jspdf": "^2.3.1",
+    "jspdf-autotable": "^3.5.14",
+    "multiselect-react-dropdown": "^2.0.1",
+    "papaparse": "^5.3.1",
+    "pdfmake": "file:pdfmake",
+    "popper.js": "^1.16.1",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.6.1",
+    "react-checkmark": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-dropdown-select": "^4.7.4",
+    "react-file-reader": "^1.1.4",
+    "react-multi-select-component": "^4.0.2",
+    "react-numeric-input": "^2.2.3",
+    "react-numeric-textbox": "^1.0.7",
+    "react-scripts": "4.0.3",
+    "react-select": "^4.3.1",
+    "react-select-search": "^3.0.8",
+    "react-table": "^7.7.0",
+    "react-toastify": "^7.0.4",
+    "react-toastr": "^3.0.0",
+    "save-svg-as-png": "^1.4.17",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.0"
+  }
+}

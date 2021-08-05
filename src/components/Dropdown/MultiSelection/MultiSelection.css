@@ -1,0 +1,55 @@
+
+.rmsc {
+  margin: 0.2vmin 1vmin !important;
+  font-size:2.7vmin !important;
+  --rmsc-h:4.8vmin !important;
+  --rmsc-gray: black !important;
+  --rmsc-bg:azure !important;
+  --rmsc-selected: #e2e6ea !important;
+  --rmsc-radius: 0px !important;
+  --rmsc-border: #f90 !important;
+  --rmsc-primary:#990000 !important;
+  --rmsc-p:1vmin !important;
+  --rmsc-main:none !important;
+  border-width: 1px !important;
+  text-align: center !important;
+  width:fit-content !important;
+  min-width: 35vmin !important;
+  color:#000082 !important;  
+}
+
+.rmsc:focus{
+  --rmsc-border: black !important;
+}
+
+.rmsc * {
+  box-sizing: border-box;
+  transition: all 0.2s ease;
+}
+
+.rmsc .dropdown-content {
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  font-size: 2.7vmin !important;
+  border: '1px solid blue' !important;
+  align-items: start !important;
+  justify-content: start !important;
+  text-align: start !important;
+  text-overflow: visible !important;
+  white-space: nowrap !important;
+  padding-top: 4px;
+  width:100%
+}
+
+.rmsc .item-renderer {
+  flex:1 1 auto;
+  font-size :2.7vmin !important;
+  white-space: nowrap !important;
+  align-items: start !important;
+  text-align: start !important;
+  color:black !important;
+  width:100% !important;
+  margin-right: auto;
+}
+

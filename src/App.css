@@ -1,0 +1,111 @@
+html,body{
+  height:100%
+}
+
+.top{
+  position:relative;
+  z-index:1;
+  padding-bottom: auto;
+  margin:0px;
+  height:100%
+}
+
+.initialize{
+  text-align: center;
+  font-size: large;
+  display:block;
+  flex-direction: column;
+  justify-content: center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%)
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  flex-direction: column;
+}
+
+.App-header {
+  position:relative;
+  height:22vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  color:aliceblue;
+  margin-bottom: 1.5vmin;
+}
+
+.App-header::after{
+  content:'';
+  background-image: url('./assets/graph_green_background2.jpg');
+  opacity: 85%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width:100%;
+  height:auto;
+  z-index:-1;
+}
+
+.appTitle{
+  font-size:6.5vmin;
+  position:absolute;
+  top:11%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+}
+
+.mainBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.noData{
+  font-size: 2.6vmin; 
+}
+
+.anomalyResults{
+  padding-top: 4vmin;
+  padding-bottom: 4vmin;
+  position:relative;
+}
+
+p{
+  font-size: 2.45vmin; 
+}
+
+.Toastify__toast-container {
+  background-color: #282c34;
+}
+
+.toastBackground{
+  background-color: transparent;
+}
+
+.toastBody{
+  text-align: center;
+  color: black;
+  font-size: 2.52vmin;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold; 
+}
+
+

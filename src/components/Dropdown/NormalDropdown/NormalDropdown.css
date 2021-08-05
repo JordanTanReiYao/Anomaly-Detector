@@ -1,0 +1,24 @@
+select{
+    height:100%;
+    font-size: 2.7vmin;
+    padding: 0.15vmin 0.6vmin;
+    height:4.5vmin;
+    margin: 0.2vmin 0.6vmin;
+    border-radius: 0em;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    border: 1px solid #f90;
+    text-align: center;
+    background-color:azure;
+    outline: none;
+    text-align-last: center;
+    color: #000082;
+  }
+
+  option{
+    text-align-last: center;
+    font-size: 2.7vmin;;
+    padding-left: auto;
+    padding-right: auto;
+  }

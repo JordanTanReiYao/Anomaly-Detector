@@ -1,0 +1,35 @@
+fieldset.dbRoot{
+  padding: 4px;
+  color: #000000;
+  background-color: #61dafb;
+  font-size: 2.8vmin;
+  position:absolute;
+  top:79%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  width: max-content;
+  border-width: 0px;
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+}
+  
+label.dbRoot,input.dbRoot {
+  margin-right: 1vmin;
+  font-size: inherit;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+input[type='text'].dbRoot{
+  white-space: pre-line;
+  font-size:2.7vmin;
+  width:30vw;
+  outline: none;
+  border:2px solid grey
+}
+
+input[type='text'].dbRoot:focus{
+  border: 2px solid blue;
+}

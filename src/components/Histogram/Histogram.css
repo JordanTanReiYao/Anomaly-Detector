@@ -1,0 +1,46 @@
+.histogram{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position:absolute;
+    z-index: 2;
+    top:50%;
+    height:auto;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:auto;
+    background-color: white;
+    border:2px solid red;
+    overflow: visible;
+}
+
+.close-icon {
+    cursor: pointer;
+    position: absolute;
+    left:100%;
+    transform: translate(-50%,-50%);
+    background: #ededed;
+    width: 4.5vmin;
+    line-height: 3.4vmin;
+    height: 4.5vmin;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 3.5vmin;
+    font-weight: bold;
+  }
+
+
+  .downloadButton{
+    height:5%;
+    width:5%;
+    position:absolute;
+    left:95%;
+    top:95%;
+    transform: translate(-50%,-50%)
+  }
+
+  .downloadButton:hover{
+    background-color: lightblue;
+    cursor:pointer;
+  }

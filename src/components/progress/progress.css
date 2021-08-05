@@ -1,0 +1,29 @@
+.progressBackground{
+    position:fixed;
+    height:100%;
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    font-weight: bold;
+    background-color: #000000AF; 
+  }
+  
+  .progressIndicator{
+    position:fixed;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    text-align: center;
+  }
+  
+  .progressIndicator>p{
+    font-size: 6.5vmin;
+    color: aliceblue;
+  }
+  
+  .MuiCircularProgress-colorPrimary{
+    color: whitesmoke !important;
+  }

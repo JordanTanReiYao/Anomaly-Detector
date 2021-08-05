@@ -1,0 +1,11 @@
+.arrow{
+    margin:0px;
+    padding:0px;
+    width:2.095vmin;
+    height:2.115vmin;
+    color:black
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
